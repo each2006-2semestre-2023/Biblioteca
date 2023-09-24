@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class Biblioteca {
 
-    private final ArrayList<Livro> livros;
-    private final ArrayList<Autor> autores;
-    private final ArrayList<Editora> editoras;
-    private final ArrayList<LivroEstoque> estoque;
+    final ArrayList<Livro> livros;
+    final ArrayList<Autor> autores;
+    final ArrayList<Editora> editoras;
+    final ArrayList<LivroEstoque> estoque;
 
     public Biblioteca() {
         livros = new ArrayList<Livro>();
