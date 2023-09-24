@@ -47,7 +47,7 @@ public class LivroVenda {
         if (this.quantidade < quantidade) {
             return false;
         } else {
-            this.quantidade--;
+            this.quantidade -= quantidade;
             return true;
         }
     }
