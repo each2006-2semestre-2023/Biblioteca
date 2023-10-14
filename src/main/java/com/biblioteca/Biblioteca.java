@@ -96,7 +96,7 @@ public class Biblioteca {
         
         LivroEstoque aremover = null;
         for (LivroEstoque e : estoque) {
-            if (e.livro.isbn.equals(e.livro.isbn)) {
+            if (e.livro.isbn.equals(livroEstoque.livro.isbn)) {
                 aremover = e;
             }
         }
